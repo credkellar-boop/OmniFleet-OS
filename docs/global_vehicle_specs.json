@@ -1,0 +1,7 @@
+{
+  "vehicle_segments": {
+    "Kei": {"max_length_in": 134, "use": "Urban"},
+    "Compact": {"avg_length_in": 175, "use": "Daily"},
+    "Full_Size_Truck": {"avg_length_in": 230, "use": "Work"}
+  }
+}

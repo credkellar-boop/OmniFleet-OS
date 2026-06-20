@@ -8,3 +8,9 @@ system:
     min_battery_dispatch: 0.25
     surge_multiplier: 1.5
     
+security_and_identity:
+  biometrics_enabled: true     # Master toggle for all auth
+  face_auth_enabled: true      # Toggle specifically for face recognition
+  voice_control_enabled: true  # Toggle specifically for voice commands
+  encryption_level: "AES-256"
+  

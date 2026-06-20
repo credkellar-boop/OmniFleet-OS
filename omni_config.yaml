@@ -14,3 +14,15 @@ security_and_identity:
   voice_control_enabled: true  # Toggle specifically for voice commands
   encryption_level: "AES-256"
   
+# Updated omni_config.yaml
+
+flight_system:
+  aerospace_enabled: true
+  hypersonic_safety_limit: 5.5 # Mach limit
+  default_mode: "DRONE"
+  pre_flight_check: true
+
+security:
+  # Disables takeoff if GPS is in a No-Fly Zone
+  enforce_no_fly_zones: true 
+  

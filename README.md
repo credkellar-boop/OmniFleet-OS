@@ -1,2 +1,9 @@
 # OmniFleet-OS
-Universal autonomous fleet OS. Seamlessly map hardware (Manual/Auto/4WD) and deploy AI-generated vehicle designs. Features built-in API integration for Turo leasing and Uber/Lyft to fully automate rideshare dispatch and passive income generation.
+Universal mobility protocol for autonomous fleet management and yield optimization.
+
+![Status](https://img.shields.io/badge/Status-Operational-green)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+
+- **AutoForge**: Generative chassis prototyping.
+- **LeasingNode**: Automated Turo/Rideshare integration.
+- **HardwareLayer**: Torque-vectoring & drivetrain sync.

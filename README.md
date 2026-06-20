@@ -1,4 +1,7 @@
 # OmniFleet-OS
+<p align="center">
+  <img src="1781931624561.png" alt="Profile Image" width="400"/>
+</p>
 
 ![Status](https://img.shields.io/badge/Status-Operational-brightgreen?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-Apache_2.0-lightgrey?style=for-the-badge) ![Build](https://img.shields.io/badge/Build-Passing-success?style=for-the-badge&logo=githubactions)
 

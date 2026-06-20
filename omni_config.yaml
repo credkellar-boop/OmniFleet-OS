@@ -13,8 +13,6 @@ security_and_identity:
   face_auth_enabled: true      # Toggle specifically for face recognition
   voice_control_enabled: true  # Toggle specifically for voice commands
   encryption_level: "AES-256"
-  
-# Updated omni_config.yaml
 
 flight_system:
   aerospace_enabled: true
@@ -25,4 +23,16 @@ flight_system:
 security:
   # Disables takeoff if GPS is in a No-Fly Zone
   enforce_no_fly_zones: true 
+  
+infotainment:
+  default_streaming_quality: "4K"
+  auto_connect_bluetooth: true
+  delivery_platform_priority: 
+    - "UBEREATS"
+    - "DOORDASH"
+    - "GRUBHUB"
+
+api_secrets:
+  streaming_token: "ENV_STREAM_KEY"
+  delivery_api_key: "ENV_DELIVERY_KEY"
   

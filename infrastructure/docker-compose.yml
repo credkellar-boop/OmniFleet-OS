@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  telemetry_edge:
+    build: 
+      context: ./telemetry
+    restart: unless-stopped
+    ports:
+      - "1883:1883" 
+    environment:
+      - BUFFER_CAPACITY=10000
+
+  core_routing:
+    build:
+      context: ./hustle_mode
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
+
+  security_auditor:
+    build:
+      context: ./security
+    environment:
+      - REDTEAM_STRICT_MODE=true
+    depends_on:
+      - core_routing
+      

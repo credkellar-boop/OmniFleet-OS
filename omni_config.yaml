@@ -1,0 +1,10 @@
+system:
+  mode: "BUSINESS" # Options: PERSONAL, BUSINESS, TURNOVER
+  autonomous_enabled: true
+  api_keys:
+    uber: "INSERT_UBER_KEY"
+    turo: "INSERT_TURO_KEY"
+  thresholds:
+    min_battery_dispatch: 0.25
+    surge_multiplier: 1.5
+    

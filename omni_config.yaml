@@ -36,3 +36,23 @@ api_secrets:
   streaming_token: "ENV_STREAM_KEY"
   delivery_api_key: "ENV_DELIVERY_KEY"
   
+# Path: omni_config.yaml
+fleet_name: "OmniFleet-OS"
+version: "1.0.0"
+
+hardware:
+  compute_target: "hardware_agnostic" 
+  chassis_type: "Skateboard_V2"
+
+# Wallet and settlement configuration explicitly scoped to the network layer
+network:
+  mesh_port: 8899
+  wallet_config:
+    enabled: true
+    address: "0x8920...3A19"
+    preferred_token: "BULLISH"
+    auto_sweep_threshold: 150.00
+    
+security:
+  aegis_audit_enabled: true
+  fail_secure_mode: true
